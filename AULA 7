@@ -1,0 +1,31 @@
+fuction podeSubir(altura,vemAcompanhado){
+    let podeSubir = false
+
+    if(altura <= 2.0 && vemAcompanhado){
+
+    }
+    if(altura>=1.20 && vemAcompanhado){
+
+    }
+    return podeSubir
+
+}
+
+fuction podeSubir(altura,vemAcompanhado){
+    if((altura <= 2.0 && altura >= 1.20) ││ (altura >= 1.20 && vemAcompanhado)){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+fuction podeSubir(altura, vemAcompanhado){
+    return (altura <= 2.0 && altura >= 1.20) ││ (altura >= 1.20 && vemAcompanhado)
+}
+
+function podeSubir (altura, acompanhada){
+    let temAcompanhante = acompanhada === "sim" ? "Acesso autorizado e Acompanhante OK" : "Acesso negado!";
+    return altura < 1.2 ? "Acesso negado!" : altura < 1.4 ? "Acesso autorizado, somente com acompanhante!" && temAcompanhante : altura >= 1.4 && altura < 2 ? "Acesso autorizado" : "Excede a altura permitida!";
+}
+console.log(podeSubir(1.3, "sim"));
