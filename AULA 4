@@ -1,0 +1,22 @@
+function adicionar (x,y){
+  return (x + y)
+}
+console.log(adicionar(10,10))
+
+function subtração (x,y){
+  return (x - y)
+}
+console.log(subtração(10,10))
+
+
+function multiplicação (x,y){
+    return (x * y)
+}
+
+console.log( multiplicação (10,10))
+
+
+function divisão (x,y){
+    return (x / y)
+}
+console.log(divisão(10,10))
