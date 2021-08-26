@@ -1,0 +1,24 @@
+// EXERCÍCIO 1
+
+let nome = "Gabriella"
+let idade = 25
+let usuarioAtivo = true
+
+console.log (nome)
+console.log (idade)
+console.log (usuarioAtivo)
+
+console.log ("Nome:  ")
+console.log(nome)
+console.log("Idade:  ")
+console.log(idade)
+console.log("Usuário está ativo no sistema?")
+console.log(usuarioAtivo)
+
+
+//EXERCÍCIO 2
+
+let varA = 1;
+let varB = 2;
+let resultado = varA + varB;
+console.log (varA + varB );
